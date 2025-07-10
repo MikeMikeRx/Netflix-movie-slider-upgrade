@@ -39,9 +39,8 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  padding-top: 450px;
+  padding-top: 600px;        /*<===========*/
   padding-bottom: 40px;
 }
 
@@ -117,3 +116,5 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+
