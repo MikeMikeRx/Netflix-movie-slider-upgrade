@@ -49,13 +49,16 @@ const OneMovieSlider = () => {
                 </article>
             })}
         </div>
-        <button onClick={()=> setIndex(index - 1)}> 
+
+        <div className="slider-btns">
+            <button onClick={()=> setIndex(index - 1)}> 
             <FaArrowLeft />
-        </button>
-        <button onClick={()=> setIndex(index + 1)}>
+            </button>
+            <button onClick={()=> setIndex(index + 1)}>
             <FaArrowRight />
-        </button>
-    
+            </button>
+        </div>
+        
     </section>
 }
 

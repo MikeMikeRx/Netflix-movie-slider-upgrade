@@ -51,14 +51,14 @@ const allMovies = [
          tags: "Gangster * Thriller * Violence",
          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
      },
-     {
-         id: 6,
-         image: image6,
-         title: "The Intern",
-         age: "+16",
-         tags: "Rodinný * Thriller * Violence",
-         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
-     },
+    //  {
+    //      id: 6,
+    //      image: image6,
+    //      title: "The Intern",
+    //      age: "+16",
+    //      tags: "Rodinný * Thriller * Violence",
+    //      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
+    //  },
      {
          id: 7,
          image: image7,
@@ -86,7 +86,7 @@ const allMovies = [
      {
          id: 10,
          image: image10,
-         title: "Whoami",
+         title: "Who Am I ?",
          age: "+13",
          tags: "Gangster * Thriller * Violence",
          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
