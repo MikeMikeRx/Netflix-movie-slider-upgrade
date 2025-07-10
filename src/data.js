@@ -13,7 +13,7 @@ const allMovies = [
     {
         id: 1,
         image: image1,
-        title: "Enola Holmesová 2",
+        title: "Enola Holmes 2",
         age: "+13",
         tags: "Comedy * Thriller * Family",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -21,7 +21,7 @@ const allMovies = [
     {
         id: 2,
         image: image2,
-        title: "Enola Holmesová",
+        title: "Enola Holmes",
         age: "+13",
         tags: "Comedy * Thriller * Family",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -29,7 +29,7 @@ const allMovies = [
     {
         id: 3,
         image: image3,
-        title: "Rocknrolla",
+        title: "Rock'n'rolla",
         age: "+16",
         tags: "Gangster * Thriller * Violence",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -46,7 +46,7 @@ const allMovies = [
      {
          id: 5,
          image: image5,
-         title: "Telefon pana Harrigana",
+         title: "Mr. Harring's phone",
          age: "+16",
          tags: "Gangster * Thriller * Violence",
          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -54,7 +54,7 @@ const allMovies = [
      {
          id: 6,
          image: image6,
-         title: "Stážista",
+         title: "The Intern",
          age: "+16",
          tags: "Rodinný * Thriller * Violence",
          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -62,7 +62,7 @@ const allMovies = [
      {
          id: 7,
          image: image7,
-         title: "Život",
+         title: "Life",
          age: "+13",
          tags: "Vesmír * Thriller * Violence",
          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -70,7 +70,7 @@ const allMovies = [
      {
          id: 8,
          image: image8,
-         title: "Kód za miliardu dolarů",
+         title: "The Bilion Dollar Code",
          age: "+13",
          tags: "IT * Thriller",
          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -78,7 +78,7 @@ const allMovies = [
      {
          id: 9,
          image: image9,
-         title: "Pracháči",
+         title: "Eat the Rich: The GameStop Saga",
          age: "+16",
          tags: "Document * Thriller",
          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
