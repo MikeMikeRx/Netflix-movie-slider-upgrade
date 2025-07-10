@@ -42,10 +42,10 @@ const OneMovieSlider = () => {
 
                 return <article key={id} className={mainClass}>
                     <img src={image} alt="" />
-                    <h2>{title}</h2>
-                    <p>{description}</p>
-                    <p>{tags}</p>
-                    <p>{age}</p>
+                    <h2 className="title">{title}</h2>
+                    <p className="text">{description}</p>
+                    <p className="text">{tags}</p>
+                    <p className="text">{age}</p>
                 </article>
             })}
         </div>

@@ -12,7 +12,6 @@
     color: #e50914;
     cursor: pointer;
     margin: 0px 8px;
-
 }
 
 .all-movies-content {
@@ -39,6 +38,16 @@
 .all-movies-content img {
     width: 80%;
     height: 225px;
+}
+
+.all-movies .title {
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+.all-movies .text {
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 article.active-slide {
