@@ -11,47 +11,48 @@ const App = () => {
 
   return (
     <div>
-      <div className="bg">
-        <div className="overlay">
+        <div className="bg">
+          <div className="overlay">
 
-            <div className="header">
-              <h1 className="main-title">Netflix</h1>
+              <div className="header">
+                <h1 className="main-title">NetfliX</h1>
 
-              
-              
-              <div className="view-switcher">
-                <button
-                  className={view === "slider" ? "active" : ""}
-                  onClick={()=> setView("slider")}
-                >
-                  Slider
-                </button>
+                
+                
+                <div className="view-switcher">
+                  <button
+                    className={view === "slider" ? "active" : ""}
+                    onClick={()=> setView("slider")}
+                  >
+                    Slider
+                  </button>
 
-                <button
-                className={view === "movies" ? "active" : ""}
-                onClick={()=> setView("movies")}
-                >
-                  Movies
-                </button>
+                  <button
+                  className={view === "movies" ? "active" : ""}
+                  onClick={()=> setView("movies")}
+                  >
+                    Movies
+                  </button>
+                </div>
               </div>
 
 
-
-              <div className="slider">    
-                {view === "slider" ? <OneMovieSlider /> : <Movies />}
+                <div className="slider">    
+                  {view === "slider" ? <OneMovieSlider /> : <Movies />}            
             </div>
           </div>
-        </div>
-    </div>       
-           
-    {/* Question section */}
-    <h2 className="faq-title">Frequetly Asked Questions</h2>
-      <div className="all-questions">
-        {questions.map( (q) => {
-            return <Question key={q.id} {...q}/>
-            })}
+      </div>       
+            
+      {/* Question section */}
+      <div className="faq-wrap">
+        <h2 className="faq-title">Frequetly Asked Questions</h2>
+          <div className="all-questions">
+            {questions.map( (q) => {
+                return <Question key={q.id} {...q}/>
+                })}
           </div>
-      </div>    
+      </div>
+    </div>    
   )
 }
 

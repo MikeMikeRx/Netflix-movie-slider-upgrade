@@ -20,6 +20,8 @@ body {
   width: 100vw;
 }
 
+/* Top-part */
+
 .header {
   text-align: center;
   top: 0;
@@ -27,6 +29,8 @@ body {
   width: 100%;
   z-index: 1000;
   padding: 20px 0;
+    /* background-color: rgba(20, 20, 20, 0.6); */
+      /* outline: 2px dashed yellow; */
 
 }
 
@@ -41,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-  background-color: rgba(20, 20, 20, 0.5);
+  /* background-color: rgba(20, 20, 20, 0.5); */
   padding: 8px 20px;
   max-width: 180px;
   margin: 0px auto;
@@ -67,3 +71,31 @@ body {
 
 }
 
+/* Main content */
+
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Faq */
+
+.faq-wrap {
+  max-width: 800px;
+  margin: 50px auto;
+  margin-top: 100px;
+  padding: 0 16px;
+  color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.faq-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}

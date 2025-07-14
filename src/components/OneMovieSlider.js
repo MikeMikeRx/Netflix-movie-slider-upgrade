@@ -20,7 +20,7 @@ const OneMovieSlider = () => {
     useEffect( () => {
         let interval = setInterval( ()=>{
             setIndex(index + 1)
-        }, 5000)
+        }, 3500)
         return () => clearInterval(interval)
     },[index])
 

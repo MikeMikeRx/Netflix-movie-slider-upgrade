@@ -5,6 +5,7 @@
     width: 90%;
     max-width: 1200px;
     margin: 40px auto;
+    background-color: rgba(20, 20, 20, 0.7);
     box-shadow: 5px 5px 25px 5px #e50914;
 }
 
