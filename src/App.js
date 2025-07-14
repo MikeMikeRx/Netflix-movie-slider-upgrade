@@ -13,11 +13,12 @@ const App = () => {
     <div>
       <div className="bg">
         <div className="overlay">
-          <div className="container">
+
             <div className="header">
               <h1 className="main-title">Netflix</h1>
 
-
+              
+              
               <div className="view-switcher">
                 <button
                   className={view === "slider" ? "active" : ""}
@@ -34,12 +35,13 @@ const App = () => {
                 </button>
               </div>
 
+
+
               <div className="slider">    
                 {view === "slider" ? <OneMovieSlider /> : <Movies />}
             </div>
           </div>
         </div>
-      </div> 
     </div>       
            
     {/* Question section */}
