@@ -14,30 +14,32 @@ const App = () => {
       <div className="bg">
         <div className="overlay">
           <div className="container">
-            <h1 className="main-title">Netflix</h1>
+            <div className="header">
+              <h1 className="main-title">Netflix</h1>
 
 
-            <div className="view-switcher">
-              <button
-                className={view === "slider" ? "active" : ""}
-                onClick={()=> setView("slider")}
-              >
-                Slider
-              </button>
+              <div className="view-switcher">
+                <button
+                  className={view === "slider" ? "active" : ""}
+                  onClick={()=> setView("slider")}
+                >
+                  Slider
+                </button>
 
-              <button
-              className={view === "movies" ? "active" : ""}
-              onClick={()=> setView("movies")}
-              >
-                Movies
-              </button>
-            </div>
+                <button
+                className={view === "movies" ? "active" : ""}
+                onClick={()=> setView("movies")}
+                >
+                  Movies
+                </button>
+              </div>
 
-            <div className="slider">    
-              {view === "slider" ? <OneMovieSlider /> : <Movies />}
+              <div className="slider">    
+                {view === "slider" ? <OneMovieSlider /> : <Movies />}
             </div>
           </div>
-        </div> 
+        </div>
+      </div> 
     </div>       
            
     {/* Question section */}

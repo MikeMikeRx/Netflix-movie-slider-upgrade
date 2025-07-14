@@ -32,7 +32,7 @@ body {
 }
 
 
-.overlay{
+.overlay {
   background-color: rgba(0, 0, 0, 0.25);
   min-height: 100vh;
   width: 100%;
@@ -40,7 +40,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding-top: 100px;    /* was 600px — too much */
+  padding-top: 300px;  
   padding-bottom: 40px;
 }
 
@@ -122,4 +122,16 @@ body {
   text-align: center;
   margin-top: 35px;
   font-size: 30px;
+}
+
+@media (max-height: 800px) {
+  .overlay {
+    padding-top: 300px;
+  }
+}
+
+@media (max-height: 600px) {
+  .overlay {
+    padding-top: 200px;
+  }
 }
