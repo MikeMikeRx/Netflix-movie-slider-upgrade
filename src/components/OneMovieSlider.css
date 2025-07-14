@@ -19,7 +19,6 @@
 .all-movies-content {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid red; */
     width: 500px;
     overflow: hidden;
     height: 400px;

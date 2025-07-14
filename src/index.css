@@ -29,9 +29,6 @@ body {
   width: 100%;
   z-index: 1000;
   padding: 20px 0;
-    /* background-color: rgba(20, 20, 20, 0.6); */
-      /* outline: 2px dashed yellow; */
-
 }
 
 .main-title {
@@ -45,7 +42,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-  /* background-color: rgba(20, 20, 20, 0.5); */
   padding: 8px 20px;
   max-width: 180px;
   margin: 0px auto;
@@ -91,7 +87,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* background-color: black; */
+
 }
 
 
