@@ -15,7 +15,7 @@ const App = () => {
                                   
         <div className="header">
           
-          <h1 className="main-title">NetfliX</h1>
+          <h1 className="main-title">ReactFlix</h1>
 
           <div className="view-switcher">
 

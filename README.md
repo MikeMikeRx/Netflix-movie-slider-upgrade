@@ -1,39 +1,49 @@
-# 🎬 OneMovieSlider
+# 🎬 React Movie Slider & FAQ App
 
-A simple auto-scrolling movie slider built with React.  
-It displays movies from a data source, cycles through them every 5 seconds, and includes manual navigation with previous/next buttons.
-
----
-
-## 🚀 Features
-
-- Auto-play slideshow with 5-second interval  
-- Manual navigation using left/right arrows  
-- Smooth transitions between slides  
-- Fully responsive and styled with CSS  
-- Built using functional components and React hooks  
+A sleek and responsive React application showcasing a movie gallery, interactive movie slider, and FAQ section. Inspired by Netflix's UI style. Built to demonstrate proficiency in React, component structure, state management, and modern CSS styling.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Features
 
-- **React** (Functional Components, Hooks)  
-- **CSS** (Custom styling)  
-- **react-icons** (For arrow icons)  
+- 🎞️ **Movies View**: Grid layout of movies with title, genre, description, and age rating.
+- 🎠 **Movie Slider**: Auto-playing, manually controlled slider displaying movie details one at a time.
+- ❓ **FAQ Section**: Accordion-style toggle to show/hide answers to frequently asked questions.
+- 🌙 **Dark Mode UI**: Netflix-inspired styling with custom colors and shadows.
+- 🔁 **Responsive Design**: Mobile-first, adapts to various screen sizes.
 
 ---
 
-## ⚙️ How It Works
+## 📸 Preview
 
-The component uses two `useEffect` hooks:
+![App Screenshot](./Screenshots/shot2.jpg) 
+![App Screenshot](./Screenshots/shot1.jpg) 
 
-1. One to wrap the index if it goes out of bounds (looping).  
-2. One to auto-advance the index every 5 seconds.  
+---
 
-Slide behavior is handled with conditional CSS classes:
+## 📂 Folder Structure
 
-- `active-slide` – the currently visible slide  
-- `last-slide` – the previous slide (for transition effect)  
-- `next-slide` – the next slide (off-screen right)  
+src/
+│
+├── components/
+│ ├── Movies.js
+│ ├── OneMovieSlider.js
+│ └── Question.js
+│
+├── styles/
+│ ├── index.css
+│ ├── Movies.css
+│ ├── OneMovieSlider.css
+│ └── Question.css
+│
+├── data.js
+├── questions.js
+└── App.js
 
-Buttons with `FaArrowLeft` and `FaArrowRight` icons let users manually navigate through the slides.
+---
+## ⚙️ Technologies Used
+
+- ⚛️ **React** (Hooks & Components)
+- 💅 **CSS** (custom + responsive layout)
+- 🎨 **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- 📁 **Data Management**: Static JSON files (`data.js`, `questions.js`)
