@@ -2,7 +2,7 @@ const questions = [
     {
         id: 1,
         title: "What is Netflix ?",
-        info: "Iste, accusantium numquam magni excepturi maiores rem molestiae in maxime."
+        info: "Aliquam ac accumsan nulla. Etiam rutrum felis non dui fermentum, a porttitor sem convallis."
     },
     {
         id: 2,
