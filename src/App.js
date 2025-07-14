@@ -41,6 +41,7 @@ const App = () => {
     </div>       
            
     {/* Question section */}
+    <h2 className="faq-title">Frequetly Asked Questions</h2>
       <div className="all-questions">
         {questions.map( (q) => {
             return <Question key={q.id} {...q}/>

@@ -117,4 +117,9 @@ body {
   align-items: center;
 }
 
-
+.faq-title {
+  color: #e5e5e5;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 30px;
+}
