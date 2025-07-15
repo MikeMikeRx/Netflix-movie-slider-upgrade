@@ -1,7 +1,7 @@
 const DummyImg = () =>{
     const width = 300
     const height = 160
-    const bgColor = "00235c"
+    const bgColor = "028500"
     const text = "Movie Title"
     const textColor = "ffffff"
 
@@ -15,5 +15,3 @@ const DummyImg = () =>{
 export default DummyImg
 
 
-
-// https://dummyimg.vercel.app/300x160/00235c/ffffff/png?text=Movie%20title&fontsize=

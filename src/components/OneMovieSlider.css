@@ -1,17 +1,19 @@
 .all-movies {
     text-align: center;
     color: #e5e5e5;
-    box-shadow: 0px 0px 15px #fccc3d;
+    box-shadow: 5px 5px 25px 5px #baddfc;
     background-color: rgba(20, 20, 20, 0.9);
     padding: 20px;
     margin: 40px auto;
+    border-radius: 15px;
+
 }
 
 .all-movies button {
     background-color: transparent;
     border: none;
     font-size: 35px;
-    color: #e50914;
+    color: #f8c734;
     cursor: pointer;
     margin: 0px 8px;
 }
@@ -49,6 +51,7 @@
 .all-movies .text {
     font-size: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .slider-btns{

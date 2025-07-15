@@ -6,7 +6,8 @@
     max-width: 1200px;
     margin: 40px auto;
     background-color: rgba(20, 20, 20, 0.7);
-    box-shadow: 5px 5px 25px 5px #baddfc;
+    box-shadow: 5px 5px 25px 5px #6a7e8f;
+    border-radius: 15px;
 }
 
 .one-film {
@@ -17,6 +18,8 @@
     display: flex;
     flex-direction: column;
     transition: all 0.5s linear;
+    border: 2px solid #022859;
+    border-radius: 15px;
 }
 
 .one-film:hover {
@@ -28,8 +31,13 @@
 }
 
 
-.one-film h2,
-.one-film p {
-    padding-left: 10px;
+.one-film h2 {
     margin-top: 10px;
+    text-align: center;
+}
+
+.one-film p {
+    text-align: center;
+    padding-left: 10px;
+    margin: 5px 5px;
 }
