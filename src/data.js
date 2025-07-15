@@ -1,3 +1,5 @@
+import DummyImg from "./components/DummyImg"
+
 import image1 from "./images/movie1.png"
 import image2 from "./images/movie2.png"
 import image3 from "./images/movie3.png"
