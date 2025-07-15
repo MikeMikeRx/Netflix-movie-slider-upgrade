@@ -7,7 +7,7 @@ const Movies = () => {
     return <div className="all-films">
         {
             data.map((oneMovie)=>{
-                const {id, image, title, age, tags, description} = oneMovie
+                const {id, title, age, tags, description} = oneMovie
 
                 return <div className="one-film" key={id}>
                     <DummyImg />

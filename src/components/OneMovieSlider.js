@@ -29,7 +29,7 @@ const OneMovieSlider = () => {
 
         <div className="all-movies-content">
             {data.map( (oneMovie, oneMovieIndex) => {
-                const {id, image, title, age, tags, description} = oneMovie
+                const {id, title, age, tags, description} = oneMovie
 
                 let mainClass = "next-slide"
 
