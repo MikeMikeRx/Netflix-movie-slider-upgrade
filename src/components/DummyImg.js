@@ -5,10 +5,10 @@ const DummyImg = () =>{
     const text = "Movie Title"
     const textColor = "ffffff"
 
-    const url = `https://dummyimg.vercel.app/${width}x${height}/${bgColor}/${textColor}/png?text=Movie%20title&fontsize=`
+    const url = `https://dummyimg.vercel.app/${width}x${height}/${bgColor}/${textColor}/png?text=${encodeURIComponent(text)}&fontsize=`
 
  return (
-        <img src={url} alt="" />
+        <img src={url} alt={text} />
     )
 }
 
