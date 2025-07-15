@@ -51,8 +51,8 @@ body {
 
 .view-switcher button {
   background: none;
-  border: 2px solid #e50914;
-  color: #e50914;
+  border: 2px solid #022859;
+  color: #e5e5e5;
   padding: 3px 7px;
   font-size: 12px;
   cursor: pointer;
@@ -62,8 +62,8 @@ body {
 
 .view-switcher button:hover,
 .view-switcher button.active {
-  background-color: #e50914;
-  color: black;
+  background-color: #022859;
+  color: #e5e5e5;
 
 }
 

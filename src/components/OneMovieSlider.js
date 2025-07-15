@@ -2,6 +2,7 @@ import "./OneMovieSlider.css"
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 import { useState, useEffect } from "react"
 import data from "../data"
+import DummyImg from "./DummyImg"
 
 const OneMovieSlider = () => {
     const [index, setIndex] = useState(0)
@@ -41,7 +42,7 @@ const OneMovieSlider = () => {
                 }
 
                 return <article key={id} className={mainClass}>
-                    <img src={image} alt="" />
+                    <DummyImg />
                     <h2 className="title">{title}</h2>
                     <p className="text">{description}</p>
                     <p className="text">{tags}</p>
