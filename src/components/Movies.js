@@ -1,3 +1,4 @@
+import "./DummyImg"
 import "./Movies.css"
 import data from "../data"
 
