@@ -22,7 +22,7 @@ A sleek and responsive React application showcasing a movie gallery, interactive
 ---
 
 ## 📂 Folder Structure
-
+<pre>
 src/
 │
 ├── components/
@@ -39,6 +39,7 @@ src/
 ├── data.js
 ├── questions.js
 └── App.js
+</pre>
 
 ---
 ## ⚙️ Technologies Used
