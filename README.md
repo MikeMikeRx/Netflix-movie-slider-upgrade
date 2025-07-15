@@ -16,8 +16,8 @@ A sleek and responsive React application showcasing a movie gallery, interactive
 
 ## 📸 Preview
 
-![App Screenshot](./Screenshots/Shot1.jpg) 
-![App Screenshot](./Screenshots/Shot2.jpg) 
+![App Screenshot](./Screenshots/shot1.jpg) 
+![App Screenshot](./Screenshots/shot2.jpg) 
 
 ---
 
