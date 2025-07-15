@@ -15,7 +15,7 @@ const allMovies = [
     {
         id: 1,
         image: image1,
-        title: "Amazing Thriller",
+        title: "Amazing Comedy",
         age: "+13",
         tags: "Comedy * Action * Family",
         description: "In a city where trust is a luxury, one man races against time to stop a conspiracy that could change everything.",
@@ -23,7 +23,7 @@ const allMovies = [
     {
         id: 2,
         image: image2,
-        title: "Super Comedy",
+        title: "Super Document",
         age: "+13",
         tags: "Document * Animals * Nature ",
         description: "After losing their jobs, two lifelong friends start a fake business — and accidentally become local heroes.",
@@ -39,7 +39,7 @@ const allMovies = [
     {
         id: 4,
         image: image4,
-        title: "Fantastic Movie",
+        title: "Fantastic Thriller",
         age: "+16",
         tags: "Sci-Fi * Thriller * Action",
         description: "In a land torn by war and magic, an unlikely hero rises to reclaim a forgotten kingdom and uncover their true destiny.",
