@@ -1,28 +1,30 @@
+const contactInfo = ""
+
 const questions = [
     {
         id: 1,
         title: "What is ReactFlix ?",
-        info: "Aliquam ac accumsan nulla. Etiam rutrum felis non dui fermentum, a porttitor sem convallis."
+        info: "My version of movie app inspired by Netflix-like websites and apps."
     },
     {
         id: 2,
-        title: "What types of movies can I find on ReactFlix ?",
-        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vitae dolores doloremque facilis a earum error dignissimos modi possimus harum."
+        title: "What is the main purpouse of ReactFlix app ?",
+        info: "To demonstrate my skills with React.js and deepen my understanding of its versatile capabilities through practical application."
     },
     {
         id: 3,
-        title: "How do I sign in to ReactFlix ?",
-        info: "Consectetur adipisicing elit. Illo vitae dolores doloremque facilis a earum error dignissimos modi possimus harum, iste, accusantium numquam magni excepturi maiores rem molestiae in maxime."
+        title: "Is ReactFlix updated over time ?",
+        info: "Yes, I learn as I go, but I would like to focus on future projects now. However, I still want to apply new ideas regularly to improve the code and functionality."
     },
     {
         id: 4,
-        title: "How much does a monthly ReactFlix subscription cost ?",
-        info: "Sit amet, consectetur adipisicing elit. Illo vitae dolores doloremque facilis a earum error dignissimos modi possimus harum."
+        title: "How can you get in touch with me ?",
+        info: "Feel free to reach out via: [LinkedIn]: www.linkedin.com/in/michal-rais-1996cz ."
     },
     {
         id: 5,
-        title: "How often does ReactFlix add new movies ?",
-        info: "Iste, accusantium numquam magni excepturi maiores rem molestiae in maxime."
+        title: "What is my current plan ?",
+        info: "I'm currently using my free time to improve my React skills and actively looking for opportunities to work on real projects, even for free, to gain more hands-on experience."
     },
 ]
 
