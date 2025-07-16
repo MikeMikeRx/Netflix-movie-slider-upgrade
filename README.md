@@ -21,6 +21,13 @@ A sleek and responsive React application showcasing a movie gallery, interactive
 
 ---
 
+## 📸 Original version for visual reference ONLY (with Netflix imgs and styling)
+
+![App Screenshot](./Screenshots/OGshot1.jpg) 
+![App Screenshot](./Screenshots/OGshot2.jpg) 
+
+---
+
 ## 📂 Folder Structure
 <pre>
 src/
